@@ -53,3 +53,20 @@ if __name__ == "__main__":
     grid_size = int(input("Enter the size of the grid (number of rooms per side): "))
     vacuum_cleaner = VacuumCleaner(grid_size)
     vacuum_cleaner.run()
+
+OUTPUT
+
+Enter the size of the grid (number of rooms per side): 2
+Current Environment:
+c | c
+d | c
+
+Moved down to (1, 0)
+Cleaned room at (1, 0)
+Current Environment:
+c | c
+c | c
+
+Moved up to (0, 0)
+All rooms are clean! Terminating.
+
